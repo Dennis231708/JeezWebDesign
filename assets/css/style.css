@@ -1,0 +1,48 @@
+/* Custom styles for the search modal */
+.modal-fullscreen {
+    width: 100vw;
+    /* Full width */
+    height: calc(100vh - 56px);
+    /* Full height minus the navbar height */
+    top: 0;
+    /* Align to the top */
+    left: 0;
+    /* Align to the left */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    /* Allow for proper centering */
+    align-items: center;
+    /* Center contents vertically */
+    justify-content: center;
+    /* Center contents horizontally */
+    z-index: 1040;
+    /* Ensure it's above other content but below navbar */
+}
+
+.navbar {
+    z-index: 1050;
+    /* Ensure navbar is above the modal */
+}
+
+.modal-header {
+    border-bottom: none;
+    /* Remove bottom border */
+}
+
+.modal-body {
+    display: flex;
+    /* Flex for horizontal layout */
+    justify-content: center;
+    /* Center the form */
+}
+
+.modal-body form {
+    width: 100%;
+    /* Full width for the form */
+}
+
+.modal-body input {
+    width: 70%;
+    /* Adjust input width */
+}
