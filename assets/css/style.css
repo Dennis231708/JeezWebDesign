@@ -4,6 +4,19 @@
     margin: 0 auto;
 }
 
+
+.navbar .nav-link {
+    color: black;
+    /* Change text color of links to black */
+}
+
+.navbar-brand img {
+    width: auto;
+    /* Maintain aspect ratio */
+    height: 80px;
+    /* Set a height that fits your navbar */
+}
+
 .modal-header {
     display: flex;
     justify-content: center;
